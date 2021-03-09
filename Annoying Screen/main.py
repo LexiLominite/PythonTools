@@ -6,5 +6,5 @@ screen = rotatescreen.get_primary_display()
 
 for i in range(1, 10):
     k = random.randint(1, 10)
-    time.sleep(1)
+    time.sleep(0.5)
     screen.rotate_to(k*90 % 360)
