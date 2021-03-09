@@ -1,6 +1,6 @@
 
-Welcome !
-**Make sure to install python 3 and above version in your device
+### Welcome !
+## Make sure to install Python 3 and above version in your device
 
 Installation steps:-
     1) pip3 install -r requirements.txt 
@@ -11,10 +11,12 @@ Installation steps:-
 
 ***Ignore this message
  ______________________________________________________
-|						       |
+|						                               |
 |   Package `PyAudio` not found                        |    
-|    Try `pipwin refresh`			       |
+|    Try `pipwin refresh`			                   |
 |______________________________________________________|						       
+
+
 Enjoy the program !!
 
-**Make sure to install python 3 and above version in your device	
+Make sure to install python 3 and above version in your device	
