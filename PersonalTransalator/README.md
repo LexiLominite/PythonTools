@@ -11,9 +11,9 @@ Installation steps:-
 
 ***Ignore this message
  ______________________________________________________
-|						       |
+|						                               |
 |   Package `PyAudio` not found                        |    
-|    Try `pipwin refresh`			       |
+|    Try `pipwin refresh`			                   |
 |______________________________________________________|						       
 Enjoy the program !!
 
