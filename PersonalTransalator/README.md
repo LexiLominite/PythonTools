@@ -15,6 +15,16 @@ Installation steps:-
 |   Package `PyAudio` not found                        |    
 |    Try `pipwin refresh`			                   |
 |______________________________________________________|						       
+
+
+
+
+
+
+
+
+
+
 Enjoy the program !!
 
-**Make sure to install python 3 and above version in your device	
+
