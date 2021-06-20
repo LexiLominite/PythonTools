@@ -2,6 +2,7 @@ import random
 import time
 
 
+
 data = ['A', 'B','C','D','E','F','G','H','I','J','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',
 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 '1','2','3','4','5','6','7','8','9','10','!','@','#','$','_','^','&','*','(',')']
@@ -26,8 +27,9 @@ else :
 
 if flag1:
     dump_length=int(input("Please enter the length of dump: "))
-    print ("Your dump is being created !! \n No 4 consecutive letters can be equal in the whole string which is being generated.\n So please wait time will be taken according to the length of the string you mentioned \n")
-    time.sleep(2)
+    time.sleep(0.5)
+    
+    print ("\n\n\n\nYour dump is being created !! \n No 4 consecutive letters can be equal in the whole string which is being generated.\n So please wait time will be taken according to the length of the string you mentioned \n\n")
     input("Press enter after reading this to start the process!  ")
     check_list = []
     for i in range(0, dump_length) :
@@ -56,11 +58,11 @@ while flag :
         pattern_comp = dump[i:i+pattern_length]
         if pattern == pattern_comp :
             pattern_indexes.append(i)
-            print('Inject after {}'.format(i-1))
+            print('Inject after {}'.format(i))
 
 
 
-    print("List of indexes found  "+str(pattern_indexes))
+    print("Number of your selected patterns repeated in the string = "+str(len(pattern_indexes)))
 
     decision = str(input("Do u want to check another string (y,n): "))
 
@@ -68,6 +70,7 @@ while flag :
         pass
     else:
         flag = False
+    
         print("Follow my discord server: https://discord.gg/gY25hNhXNy")
         print("Follow me on Instagram: https://instagram.com/_lexilominite_")
         print(" Bye...Bye...Catch you later ")
